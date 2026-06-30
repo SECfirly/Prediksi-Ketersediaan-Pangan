@@ -16,7 +16,7 @@ st.write("Provinsi Lampung")
 st.markdown("---")
 
 # Membaca dataset
-df = pd.read_excel("D:/Unila/Satria Data/Dataset 2020-2024.xlsx")
+df = pd.read_excel("data/Dataset 2020-2024.xlsx")
 
 # Menampilkan dataset
 st.header("Dataset")
