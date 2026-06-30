@@ -4,7 +4,7 @@ import pandas as pd
 st.title("🚚 Distribusi Pangan")
 
 # Membaca dataset
-df = pd.read_excel("../Dataset 2020-2024.xlsx")
+df = pd.read_excel("data/Dataset 2020-2024.xlsx")
 
 # Pilih tahun
 tahun = st.selectbox(
