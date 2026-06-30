@@ -75,7 +75,7 @@ st.divider()
 st.subheader("🗺️ Peta Distribusi Pangan")
 
 st.image(
-    r"D:\Unila\Satria Data\Olah data\assets\peta_lampung.png",
+    "assets/peta_lampung.png",
     use_container_width=True
 )
 
