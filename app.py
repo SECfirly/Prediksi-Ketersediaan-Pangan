@@ -46,16 +46,6 @@ col4.metric(
 
 st.sidebar.title("🌾 SPADDY")
 
-menu = st.sidebar.radio(
-    "Pilih Menu",
-    [
-        "Dashboard",
-        "Visualisasi",
-        "Machine Learning",
-        "Prediksi",
-        "Distribusi"
-    ]
-)
 
 tahun = st.sidebar.selectbox(
     "Pilih Tahun",
