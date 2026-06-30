@@ -46,7 +46,6 @@ col4.metric(
 
 st.sidebar.title("🌾 SPADDY")
 
-
 tahun = st.sidebar.selectbox(
     "Pilih Tahun",
     sorted(df["Tahun"].unique())
